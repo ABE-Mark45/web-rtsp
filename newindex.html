@@ -1,0 +1,16 @@
+<html>
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+
+<script type="text/javascript" src="jsmpeg.js"></script>
+<script type="text/javascript">
+    player = new JSMpeg.Player('ws://localhost:554', {
+      canvas: document.getElementById('canvas') // Canvas should be a canvas DOM element
+    });
+</script>
+<br>
+
+<!--  <img style="width: 1280; height: 720;" src="http://192.168.1.40:8080/video">  -->
+
+</html>
